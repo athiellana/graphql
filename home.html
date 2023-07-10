@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home Profil</title>
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+
+  <header>
+    <div class="banner">
+      <div class="user-info">
+        <p><span id="username"></span></p>
+        <br>
+        <a href="#" style="display: contents;">
+          <button id="btn-graph" class="logout-btn">Access to your graph</button>
+          <button id="logout-btn" class="logout-btn">Log out</button>
+        </a>
+      </div>
+    </div>
+  </header>
+  
+
+  <section class="box">
+    <h2 class="infos">Your infos</h2>
+    <ul class="list1">
+      <p class="nom">Last name : <span id="lastname"></span></p>
+      <p class="prenom">First name : <span id="name"></span></p>
+      <p class="campus">Campus : <span id="campus"></span></p>
+      <p class="email">Email : <span id="email"></span></p>
+      <p class="telephone">Phone number : <span id="tel"></span></p>
+      <p class="adresse">Adress : <span id="addresse"></span></p>
+      <p class="ville">City : <span id="city"></span></p>
+    </ul>
+    <br>
+    <h2 class="stats">Your stats</h2>
+    <div class="content">
+      <div class="box-content">
+        <p class="xp">Your XP : <span id="xp"></span></p>
+        <p class="ratio">Your audit ratio : <span id="ratio"></span></p>
+      </div>
+    </div>
+  </section>
+
+  <script src="home.js"></script>
+</body>
+</html>
